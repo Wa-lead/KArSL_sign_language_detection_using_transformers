@@ -1,4 +1,18 @@
-## Data Preprocessing
+
+## Project Description
+Predicting sign language on the KArSL data using Media Pipe pre-processing and transformers.
+
+## Installation
+1. > git clone https://github.com/Wa-lead/KArSL_sign_language_detection_using_transformers.git
+2. > pip install -r requirements.txt
+
+## Usage
+1. Select a video from the data/... folder
+2. Paste it into the inference part in 'src/main.ipynb'
+
+## Overview
+
+### Data Preprocessing
 
 This repository includes the necessary data preprocessing steps to prepare the dataset for model training. The following steps are performed:
 
@@ -15,12 +29,12 @@ Please refer to the respective sections of the code for more details on each pre
 
 For the complete code and further model building steps, please refer to the `main.ipynb` notebook in this repository.
 
-## Model Building
+### Model Building
 There are two tasks that are performed in this project:
 1. Testing the model performance on signer-dependent data (i.e. the signer is the same for both training and testing)
 2. Testing the model performance on signer-independent data (i.e. the signer is different for training and testing)
 
-### Results
+#### Results
 
 ##### Signer dependent 
 | Signer |  Accuracy |
@@ -36,7 +50,7 @@ There are two tasks that are performed in this project:
 | 02 ( trained on 01, 03) | 60.9% |
 | 03 ( trained on 01, 02) | 60.4% |
 
-## Inference
+### Inference
 * Actual: Respiratory device
 * Predicted: {'Respiratory device': 0.98886746, 'laser ray': 0.0033606067, 'surgery': 0.0029914808}
   
