@@ -1,0 +1,9 @@
+*old*
+*checkpoints*
+*pycache*
+*__pycache__*
+*__MACOSX*
+*.DS_Store*
+*.pyc
+*.egg-info
+*.egg
