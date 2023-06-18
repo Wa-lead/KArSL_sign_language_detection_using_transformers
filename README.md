@@ -39,6 +39,7 @@ There are two tasks that are performed in this project:
 ## Inference
 * Actual: Respiratory device
 * Predicted: {'Respiratory device': 0.98886746, 'laser ray': 0.0033606067, 'surgery': 0.0029914808}
+  
 ![75283300](https://github.com/Wa-lead/KArSL_sign_language_detection_using_transformers/assets/81301826/326588a7-6627-4147-a334-d10e20478e9c)
 
 ## Dataset ( link )
